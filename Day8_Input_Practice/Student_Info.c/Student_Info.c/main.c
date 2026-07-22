@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main()
+{
+    int roll;
+    int age;
+    float marks;
+
+    printf("Enter Roll Number: ");
+    scanf("%d", &roll);
+
+    printf("Enter Age: ");
+    scanf("%d", &age);
+
+    printf("Enter Marks: ");
+    scanf("%d", &marks);
+
+    printf("\n-----Student Details------\n");
+    printf("Roll Number = %D\n" , roll);
+    printf("Age = %d\n", age);
+    printf("Marks = %.2f\n", marks);
+
+    return 0;
+
+}
